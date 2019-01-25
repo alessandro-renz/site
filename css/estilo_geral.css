@@ -67,3 +67,36 @@ nav{
 .nav> li> a:hover{
 	color: orange;
 }
+.cards-container [class^=col]{
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+.cards-container .card{
+	border-radius: 0;
+	border: none;
+}
+.card-body{
+	background: rgba(70,70,70);
+}
+.card .card-img-top{
+	border-radius: 0;
+}
+.card-body > .card-text{
+	color: white;
+	font-weight: normal;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 0;
+}
+.rodape{
+	background-color: rgba(70,70,70);
+	height: 90px;
+	padding: 0;
+	margin: 0;
+}
+.rodape p{
+	color: white;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px black;
+}
